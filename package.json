@@ -1,7 +1,7 @@
 {
   "name": "commentariat",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Commentariat is a dark syntax theme explicitly designed for writing papers, essays, academic articles, and others in [markdown](https://en.wikipedia.org/wiki/Markdown).",
   "keywords": [
     "syntax",
