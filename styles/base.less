@@ -132,7 +132,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--link {
-    color: @red;
+    color: @light-gray;
   }
 }
 
@@ -247,13 +247,21 @@ atom-text-editor {
 }
 
 .syntax--markup {
+  &.syntax--heading {
+    color: @red;
+    font-weight: bold;
+    .syntax--punctuation {
+      font-weight: bold !important;
+      color: @red !important;
+    }
+  }
   &.syntax--bold {
     color: @orange;
     font-weight: bold;
   }
 
   &.syntax--changed {
-    color: @purple;
+    color: @light-orange;
   }
 
   &.syntax--deleted {
@@ -265,7 +273,7 @@ atom-text-editor {
     font-style: italic;
   }
 
-  &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+  &.syntax--punctuation.syntax--definition.syntax--heading {
     color: @blue;
   }
 
@@ -274,9 +282,16 @@ atom-text-editor {
   }
 
   &.syntax--list {
-    color: @red;
+    color: @blue;
   }
 
+  &.syntax--table {
+    color: @light-orange !important;
+    .syntax--alignment, .syntax--storage, .syntax--punctuation {
+      color: @gray!important;
+      font-weight: normal;
+    }
+  }
   &.syntax--quote {
     color: @orange;
   }
