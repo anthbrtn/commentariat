@@ -1,0 +1,26 @@
+{
+  "name": "commentariat",
+  "theme": "syntax",
+  "version": "0.1",
+  "description": "Commentariat is a dark syntax theme explicitly designed for writing papers, essays, academic articles, and others in [markdown](https://en.wikipedia.org/wiki/Markdown).",
+  "keywords": [
+    "syntax",
+    "theme",
+    "markdown",
+    "academic",
+    "citation",
+    "bibtex",
+    "footnote",
+    "essay",
+    "writing",
+    "cite",
+    "zotero",
+    "comment",
+    "commentariat"
+  ],
+  "repository": "https://github.com/atom/markdown-okai",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
