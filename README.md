@@ -13,4 +13,6 @@ For an effective and seamless academic workflow writing in markdown in atom, I s
 7. [wordcount](https://atom.io/packages/wordcount) does what it says.
 8. If you're feeling hardcore, linter plugins to improve your prose can be installed with [linter-write-good](https://atom.io/packages/linter-write-good) and [linter-proselint](https://atom.io/packages/linter-proselint). They both require the basic [linter framework](https://atom.io/packages/linter). My caveat with suggesting these is the prescriptivism they push the user towards---while they often catch things that should never be used like passive voice, they both also tend to throw a fit at "weasel words" like "very" or any other qualifying adjective, which can force a standardization of writing that sucks the voice and life out of one's own writing style if not taken with a grain of salt. Proselint, especially, seems to think that the sparse style characteristic of Hemingway and other male realist authors is the only correct style, when in reality such decisions come down to stylistic, aesthetic, and contextual preference.  
 
+![img](./screenshots/screenshot1.png)
+
 This syntax theme started from an edit of [monokai-solarized-dark](https://atom.io/packages/monokai-solarized-dark).
